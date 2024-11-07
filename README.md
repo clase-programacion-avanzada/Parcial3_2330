@@ -1,6 +1,6 @@
 # Solución del Parcial 3 2023-3
 
-## 1. Conceptos (20 puntos)
+## 1. Conceptos (10 puntos)
 
 1. ¿Java permite la sobreescritura de métodos `private`?
    - a) Falso
