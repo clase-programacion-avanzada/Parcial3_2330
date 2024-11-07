@@ -1,8 +1,7 @@
 package com.company.model;
 
-import com.company.model.enums.TipoOrdenesEnum;
-import com.company.model.ordenes.Orden;
-import com.company.model.ordenes.OrdenDomicilio;
+import com.company.model.orden.Orden;
+import com.company.model.orden.OrdenDomicilio;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

@@ -1,4 +1,4 @@
-package com.company.model.ordenes;
+package com.company.model.orden;
 
 
 public class OrdenDomicilio extends Orden {

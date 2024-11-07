@@ -1,8 +1,5 @@
 package com.company.model;
 
-import com.company.model.ordenes.Orden;
-import java.util.List;
-
 public class Consumo {
 
     private int cantidad;

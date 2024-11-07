@@ -1,0 +1,51 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Producto {
+    - codigo: String
+    - descripcion: String
+
+    + Producto(codigo: String, descripcion: String)
+    + getDescripcion(): String
+    + getCodigo(): String
+    + equals(obj: Object): boolean
+}
+
+class Consumo {
+    - cantidad: int
+    - valorUnitario: int
+
+    + Consumo(cantidad: int, valorUnitario: int)
+    + getCantidad(): int
+    + getValorTotal(): int
+    + getCodigoProducto(): String
+}
+
+abstract class Orden {
+    - numeroOrden: int
+
+    + Orden(numeroOrden: int)
+    + getPrecioTotal(): int
+    + getConsumos(): List<Consumo>
+}
+
+class OrdenDomilicio extends Orden {
+    - direccion: String
+
+    + getDistanciaTotal(): double
+}
+
+class OrdenLocal extends Orden {
+
+}
+
+class Tienda {
+}
+
+' Relaciones
+Producto "1" <-- "1" Consumo : producto
+Orden "1" o-> "*" Consumo : consumos
+Tienda "1" o--> "*" Orden : ordenes
+Tienda "1" o-> "*" Producto : producto
+
+@enduml

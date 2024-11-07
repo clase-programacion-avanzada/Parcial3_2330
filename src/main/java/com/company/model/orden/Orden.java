@@ -1,8 +1,8 @@
-package com.company.model.ordenes;
+package com.company.model.orden;
 
 import com.company.model.Consumo;
 import com.company.model.Producto;
-import com.company.model.enums.TipoOrdenesEnum;
+import com.company.model.TipoOrdenesEnum;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
@@ -102,6 +102,7 @@ public abstract class Orden {
             default -> throw new IllegalArgumentException("Tipo de orden inválido");
         };
     }
+
 
     @Override
     public String toString() {
