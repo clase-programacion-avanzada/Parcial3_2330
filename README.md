@@ -120,7 +120,9 @@ Desarrolle los siguientes métodos en las clases definidas anteriormente:
 | **Tienda**         | 10  | [Un método `getIngresoDomicilio`](./src/main/java/com/company/model/Tienda.java#L149) que retorne cuánto dinero ha ganado la tienda por los costos de envío de las órdenes a domicilio.                                                                                                                                                                                                                                                                                  |
 | **Tienda**         | 25  | [Un método `getMasVendido`](./src/main/java/com/company/model/Tienda.java#L185) que retorne el código del producto más vendido (es decir, del que se vendió la mayor cantidad de unidades) en la tienda, o `null` si no hay órdenes registradas.                                                                                                                                                                                                                         |
 
-### Notas adicionales:
+#### Notas adicionales:
 
 - Para cualquiera de estos métodos puede usar métodos desarrollados en otros puntos del parcial.
 - En caso de usar métodos adicionales o auxiliares que no estén incluidos en este enunciado, debe implementarlos completamente.
+
+Puede probar la solución ejecutando el archivo [`Main.java`](./src/main/java/com/company/Main.java).
