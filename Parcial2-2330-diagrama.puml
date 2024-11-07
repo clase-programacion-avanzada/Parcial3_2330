@@ -46,6 +46,6 @@ class Tienda {
 Producto "1" <-- "1" Consumo : producto
 Orden "1" o-> "*" Consumo : consumos
 Tienda "1" o--> "*" Orden : ordenes
-Tienda "1" o-> "*" Producto : producto
+Tienda "1" o-> "*" Producto : productos
 
 @enduml
